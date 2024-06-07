@@ -1,0 +1,168 @@
+/* Resetting default margin and padding */
+/** general styling (include in student copy) **/
+html{scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image:url("images/ground.jpg") ;
+    background-color:rgba(113, 118, 116, 0.4) ;
+    background-size:100%;
+    padding:20px;
+    margin:20px;
+    line-height: 1.6;
+   
+    
+}
+
+/* Header styles */
+header {
+    position: relative;
+}
+  /* Text alignment and font size */
+
+header nav {
+    
+    text-align:left;
+    position: relative;
+    font-size:1.5em;
+    color: #000;
+    margin-left: 100px;
+}
+/* Remove underline from links */
+header nav a{
+    text-decoration: none;
+}
+  /* List styles */
+
+header nav menu{
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+  /* Padding between list items */
+
+header nav menu li{
+  padding: 0px 10px;
+}
+  /* Link color */
+
+header a:link{
+  color: #f4f4f4;
+}
+
+   /* Focus and visited link colors */
+
+header a:focus,  header a:visited{
+  color: #c7e7de;
+
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color:whitesmoke;
+    float:right;
+    width: 20%;
+    font-weight: bolder;
+    
+}
+
+/* Lyrics container styles */
+
+.lyrics {
+    float:left;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:rgba(74, 77, 76, 0.35);
+    border-radius: 10px;
+    color: whitesmoke;
+    
+  }
+    /* Font size and line height */
+
+  .lyrics p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  /* Emphasis on emotional lines */
+  
+  .lyrics p.emphasized {
+    font-weight: bold;
+    font-size: 25px;
+    color: #4bdbab;
+    text-decoration: wavy; 
+    text-transform: capitalize;
+    /* Deep blue, emotional color */
+  }
+  
+  /* Chorus Styles */
+  
+  .lyrics p.chorus {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #921faf;
+    text-decoration:wavy;
+    /* Bright, uplifting color */
+  }
+  .lyrics p.lines{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #d9e662;
+    text-decoration:wavy;
+
+  }
+  
+  /* Mood-based typography */
+  
+  .lyrics p.yelling {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #df0e6c; /* Bright, energetic color */
+  }
+  
+  .lyrics p.sad {
+    font-size: 20px;
+    font-style: italic;
+    color: #ebbfbf; /* Softer, more melancholic color */
+  }
+#song h2 h3 {
+  width: 60%;
+  float: inline-end;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+  #song img{
+    width:40%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    float: left;
+  }
+ 
+
+footer p{
+    font-size: small;
+    text-align: center;
+    color: rgb(90, 131, 118);
+    border-radius: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
